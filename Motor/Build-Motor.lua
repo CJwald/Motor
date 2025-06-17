@@ -1,4 +1,4 @@
-project "Core"
+project "Motor"
    kind "StaticLib"
    language "C++"
    cppdialect "C++20"

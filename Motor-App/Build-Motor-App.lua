@@ -1,4 +1,4 @@
-project "App"
+project "Motor-App"
    kind "ConsoleApp"
    language "C++"
    cppdialect "C++20"
@@ -12,12 +12,12 @@ project "App"
       "Source",
 
 	  -- Include Core
-	  "../Core/Source"
+	  "../Motor/Source"
    }
 
    links
    {
-      "Core"
+      "Motor"
    }
 
    targetdir ("../Binaries/" .. OutputDir .. "/%{prj.name}")
